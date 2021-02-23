@@ -24,7 +24,7 @@ namespace API.Controllers
             return await _context.Users.FindAsync(id);
             
         }
-
+//get all the detailds
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
